@@ -1,5 +1,54 @@
-# Vue 3 + TypeScript + Vite
+Vue3 能源管理平台
+基于 Vue3 + TypeScript + Vite 开发的能源管理前端系统，针对充电站日常运维、设备监控、能耗统计、运营数据分析等业务场景开发。项目功能完整、代码结构规范，适合作为实战练手、课程设计、毕业设计项目。
+项目介绍
+本系统是一套完整的充电站能源管理前端解决方案，涵盖场站监控、设备运维、数据可视化、权限管控等核心业务。项目全程使用 TypeScript 开发，保证代码类型稳定，采用 Vite 构建，启动速度快、打包体积小。
+开发过程中参考真实能源平台业务逻辑，摒弃冗余花哨功能，聚焦实际常用的运营、监控、数据分析能力，支持本地 Mock 数据运行，无需配合后端即可完整预览全部页面效果。
+主要功能
+- 数据可视化大屏：展示设备运行状态、能耗数据、收益统计、数据趋势图表，直观展示整体运营情况
+- 充电站管理：实时查看场站、充电桩运行状态，记录设备故障信息，统计场站收益数据
+- 地图点位展示：集成高德地图，可视化展示所有充电站的地理位置与分布情况
+- 设备告警管理：统一收集设备异常、离线、故障告警，支持条件筛选，方便运维排查问题
+- 运营数据管理：管理全部充电订单，统计日常运营数据，支持表格数据 Excel 导出
+- 文档管理：内置富文本编辑器，可在线编辑、保存、归档运维文档与操作说明
+- 权限管理：实现基于角色的权限控制，支持页面路由拦截、按钮级权限显示隐藏
+- 个人中心：支持账号信息、密码修改，记录用户系统操作日志
+技术栈
+- 核心技术：Vue3、TypeScript、Vite
+- 路由与状态：Vue Router、Pinia
+- UI 框架：Element Plus
+- 数据可视化：ECharts
+- 工具依赖：Axios、MockJS、XLSX、FileSaver
+- 第三方集成：高德地图、TinyMCE 富文本编辑器
+- 样式处理：Less
+项目结构
+src/
+├── api/                    # 接口统一管理
+├── components/            # 全局公共组件
+├── directives/            # 自定义指令（权限指令）
+├── hooks/                 # 通用组合式函数
+├── layouts/               # 页面布局组件
+├── mock/                  # 本地模拟数据
+├── router/                # 路由配置、路由守卫
+├── store/                 # Pinia 状态管理
+├── types/                 # 全局 TS 类型定义
+├── utils/                 # 通用工具方法
+├── views/                 # 所有业务页面
+├── App.vue                # 根组件
+└── main.ts                # 项目入口
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+项目特点
+- 代码规范统一，全程 TypeScript 强类型约束，减少运行时错误
+- 业务模块拆分清晰，低耦合，方便二次开发与功能扩展
+- 支持 Mock 本地数据，脱离后端也可完整演示所有功能
+- 包含权限控制、数据可视化、地图集成、文件导出等常见企业级功能
+注意事项
+- 地图功能依赖外网高德地图接口，内网环境无法正常加载
+- 生产环境需关闭 Mock 配置，对接真实后端接口
+- 如需修改接口地址、地图密钥，可在环境变量文件中统一配置
+许可说明
+本项目仅用于个人学习、技术练习、课程设计与毕业设计参考，禁止用于商业项目与违规用途。
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+联系方式
+- 邮箱：1396587508@qq.com
+- CSDN：https://blog.csdn.net/name_1111
+欢迎大家star、fork、提issue、pr，一起学习、交流、进步

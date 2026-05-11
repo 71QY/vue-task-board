@@ -1,4 +1,4 @@
-# ⚡ Vue3 能源管理平台
+ Vue3 能源管理平台
 
 <div align="center">
 

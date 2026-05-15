@@ -6,81 +6,81 @@ Vue3 能源管理平台
 开发过程中参考真实能源平台业务逻辑，摒弃冗余花哨功能，聚焦实际常用的运营、监控、数据分析能力，支持本地 Mock 数据运行，无需配合后端即可完整预览全部页面效果。
 
 核心优势
-- 极速开发体验：Vite 构建工具，秒级启动，热更新快速
-- 类型安全：全程 TypeScript 强类型约束，减少运行时错误
-- 现代化 UI：Element Plus 组件库，美观且易用
-- 数据可视化：ECharts 图表展示，直观呈现运营数据
-- 权限控制：完善的 RBAC 权限管理体系
-- 地图集成：高德地图可视化展示站点分布
-- 开箱即用：Mock 数据支持，无需后端即可完整预览
+ 极速开发体验：Vite 构建工具，秒级启动，热更新快速
+ 类型安全：全程 TypeScript 强类型约束，减少运行时错误
+ 现代化 UI：Element Plus 组件库，美观且易用
+ 数据可视化：ECharts 图表展示，直观呈现运营数据
+ 权限控制：完善的 RBAC 权限管理体系
+ 地图集成：高德地图可视化展示站点分布
+ 开箱即用：Mock 数据支持，无需后端即可完整预览
 
 主要功能
 数据可视化大屏
-- 实时展示设备运行状态、能耗数据、收益统计
-- 多维度数据趋势图表分析
-- 关键指标一目了然
+ 实时展示设备运行状态、能耗数据、收益统计
+ 多维度数据趋势图表分析
+ 关键指标一目了然
 
 充电站管理
-- 实时监控场站、充电桩运行状态
-- 设备故障信息记录与追踪
-- 场站收益数据统计与分析
+ 实时监控场站、充电桩运行状态
+ 设备故障信息记录与追踪
+ 场站收益数据统计与分析
 
 地图点位展示
-- 集成高德地图 API
-- 可视化展示充电站地理位置
-- 站点分布情况一目了然
+ 集成高德地图 API
+ 可视化展示充电站地理位置
+ 站点分布情况一目了然
 
 设备告警管理
-- 统一收集设备异常、离线、故障告警
-- 支持多条件筛选与分类
-- 方便运维快速排查问题
+ 统一收集设备异常、离线、故障告警
+ 支持多条件筛选与分类
+ 方便运维快速排查问题
 
 运营数据管理
-- 全量充电订单管理
-- 日常运营数据统计
-- 支持 Excel 表格数据导出
+ 全量充电订单管理
+ 日常运营数据统计
+ 支持 Excel 表格数据导出
 
 文档管理
-- 内置 TinyMCE 富文本编辑器
-- 在线编辑、保存运维文档
-- 操作说明归档管理
+ 内置 TinyMCE 富文本编辑器
+ 在线编辑、保存运维文档
+ 操作说明归档管理
 
 权限管理
-- 基于角色的访问控制（RBAC）
-- 页面路由级别权限拦截
-- 按钮级别权限显示/隐藏
+ 基于角色的访问控制（RBAC）
+ 页面路由级别权限拦截
+ 按钮级别权限显示/隐藏
 
 个人中心
-- 账号信息管理
-- 密码修改功能
-- 系统操作日志记录
+ 账号信息管理
+ 密码修改功能
+ 系统操作日志记录
 
 技术栈
 核心技术
-- 框架：[Vue 3.5.10](https://vuejs.org/) - 渐进式 JavaScript 框架
-- 语言：[TypeScript 5.5.3](https://www.typescriptlang.org/) - JavaScript 的超集
-- 构建工具：[Vite 5.4.8](https://vitejs.dev/) - 下一代前端构建工具
+ 框架：[Vue 3.5.10](https://vuejs.org/) - 渐进式 JavaScript 框架
+ 语言：[TypeScript 5.5.3](https://www.typescriptlang.org/) - JavaScript 的超集
+ 构建工具：[Vite 5.4.8](https://vitejs.dev/) - 下一代前端构建工具
 
 路由与状态管理
-- 路由：[Vue Router 4.4.5](https://router.vuejs.org/) - Vue.js 官方路由
-- 状态管理：[Pinia 2.2.4](https://pinia.vuejs.org/) - Vue 官方推荐的状态管理库
+ 路由：[Vue Router 4.4.5](https://router.vuejs.org/) - Vue.js 官方路由
+ 状态管理：[Pinia 2.2.4](https://pinia.vuejs.org/) - Vue 官方推荐的状态管理库
 
 UI 与可视化
-- UI 框架：[Element Plus 2.8.5](https://element-plus.org/) - 基于 Vue 3 的组件库
-- 图标：[@element-plus/icons-vue](https://element-plus.org/en-US/component/icon.html)
-- 图表：[ECharts 5.5.1](https://echarts.apache.org/) - 强大的数据可视化库
+ UI 框架：[Element Plus 2.8.5](https://element-plus.org/) - 基于 Vue 3 的组件库
+ 图标：[@element-plus/icons-vue](https://element-plus.org/en-US/component/icon.html)
+ 图表：[ECharts 5.5.1](https://echarts.apache.org/) - 强大的数据可视化库
 
 工具库
-- HTTP 客户端：[Axios 1.7.7](https://axios-http.com/) - 基于 Promise 的 HTTP 客户端
-- Mock 数据：[MockJS](http://mockjs.com/) - 生成随机数据，拦截 Ajax 请求
-- Excel 处理：[XLSX](https://sheetjs.com/) + [FileSaver](https://github.com/eligrey/FileSaver.js/)
+ HTTP 客户端：[Axios 1.7.7](https://axios-http.com/) - 基于 Promise 的 HTTP 客户端
+ Mock 数据：[MockJS](http://mockjs.com/) - 生成随机数据，拦截 Ajax 请求
+ Excel 处理：[XLSX](https://sheetjs.com/) + [FileSaver](https://github.com/eligrey/FileSaver.js/)
 
 第三方集成
-- 地图服务：[@amap/amap-jsapi-loader](https://lbs.amap.com/api/javascript-api/summary) - 高德地图 JS API
-- 富文本编辑器：[@tinymce/tinymce-vue](https://www.tiny.cloud/docs/integrations/vue/) - TinyMCE 编辑器
+ 地图服务：[@amap/amap-jsapi-loader](https://lbs.amap.com/api/javascript-api/summary) - 高德地图 JS API
+ 富文本编辑器：[@tinymce/tinymce-vue](https://www.tiny.cloud/docs/integrations/vue/) - TinyMCE 编辑器
 
-样式处理
-- CSS 预处理器：[Less 4.2.0](https://lesscss.org/)
+样式处理：
+CSS 预处理器：[Less 4.2.0](https://lesscss.org/)
 
 
 项目结构
@@ -151,12 +151,12 @@ Vue3能源管理平台项目实战/
  
  快速开始
 环境要求
-- Node.js >= 16.0.0
-- npm >= 7.0.0 或 yarn >= 1.22.0
+ Node.js >= 16.0.0
+ npm >= 7.0.0 或 yarn >= 1.22.0
 
 安装步骤
  1 克隆项目
-```bash
+bash
 git clone https://github.com/your-username/energy-management-platform.git
 cd energy-management-platform
 
@@ -225,9 +225,9 @@ if (import.meta.env.DEV) {
 常见问题
 Q1: 地图无法加载？
 A: 请检查以下几点：
-- 是否正确配置了高德地图 Key
-- 网络连接是否正常
-- 浏览器控制台是否有报错信息
+ 是否正确配置了高德地图 Key
+ 网络连接是否正常
+ 浏览器控制台是否有报错信息
 
 Q2: 如何对接真实后端？
 A:
@@ -237,7 +237,7 @@ A:
 
 Q3: 如何修改主题颜色？
 A: Element Plus 支持主题定制，可在 `vite.config.ts` 中配置：
-```typescript
+typescript
 css: {
   preprocessorOptions: {
     less: {
@@ -250,10 +250,10 @@ css: {
 
 Q4: 生产环境部署注意事项？
 A:
-- 确保关闭 Mock 数据
-- 配置正确的 API 代理或 CORS
-- 如使用 History 模式，需配置服务器重定向规则
-- 建议启用 Gzip 压缩优化加载速度
+ 确保关闭 Mock 数据
+ 配置正确的 API 代理或 CORS
+ 如使用 History 模式，需配置服务器重定向规则
+ 建议启用 Gzip 压缩优化加载速度
 
 Q5: 如何添加新页面？
 A:
@@ -273,26 +273,26 @@ A:
 5. 开启 Pull Request
 
 代码规范
-- 遵循 [Vue 风格指南](https://cn.vuejs.org/style-guide/)
-- 使用 TypeScript 严格模式
-- 组件命名采用 PascalCase
-- 提交信息遵循 [Conventional Commits](https://www.conventionalcommits.org/)
+ 遵循 [Vue 风格指南](https://cn.vuejs.org/style-guide/)
+ 使用 TypeScript 严格模式
+ 组件命名采用 PascalCase
+ 提交信息遵循 [Conventional Commits](https://www.conventionalcommits.org/)
 
 
 许可说明
 本项目采用 [MIT License](LICENSE) 开源协议。
 
 使用范围：
-- 允许个人学习与练习
-- 允许课程设计与毕业设计
-- 允许企业内部项目参考
-- 禁止直接用于商业项目
-- 禁止违规用途
+ 允许个人学习与练习
+ 允许课程设计与毕业设计
+ 允许企业内部项目参考
+ 禁止直接用于商业项目
+ 禁止违规用途
 
 
 联系方式
 如有问题或建议，欢迎通过以下方式联系：
-- 邮箱：1396587508@qq.com
-- CSDN：https://blog.csdn.net/name_1111
+ 邮箱：1396587508@qq.com
+ CSDN：https://blog.csdn.net/name_1111
 
 如果这个项目对你有帮助，欢迎 star、fork、share

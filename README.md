@@ -54,7 +54,6 @@ Vue3 能源管理平台
  密码修改功能
  系统操作日志记录
 
-技术栈
 核心技术
  框架：[Vue 3.5.10](https://vuejs.org/) - 渐进式 JavaScript 框架
  语言：[TypeScript 5.5.3](https://www.typescriptlang.org/) - JavaScript 的超集
